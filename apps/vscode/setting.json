@@ -1,0 +1,57 @@
+{
+    "editor.useTabStops": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "scm.repositories.visible": 1,
+    "editor.accessibilityPageSize": 15,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Fira Code', Hasklig, Consolas, 'Courier New', monospace, 'Anonymous Pro'",
+    "editor.inlineSuggest.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "block",
+    "breadcrumbs.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "javascript": true,
+        "python": true,
+        "ruby": true,
+        "erb": true
+    },
+    "ruby.intellisense": "rubyLocate",
+    "json.schemas": [],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "files.insertFinalNewline": true,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.tabSize": 2,
+    "git.mergeEditor": false,
+    "workbench.editorAssociations": {
+        "*.webm": "default",
+        "*.class": "default"
+    },
+    "workbench.editor.enablePreview": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "dart.flutterSdkPath": "/Users/a5/flutter",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false
+}
