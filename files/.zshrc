@@ -1,10 +1,12 @@
 # Docker aliases
+
 alias dexec="docker exec -it XXX /bin/bash"
 alias dexecc="docker exec -it XXX bash -c 'bundle exec rails c'"
 alias daa="docker attach XXX"
 alias dca="docker compose stop app"
 alias dua="docker compose up app"
 alias dcd="docker compose down"
+alias flutter="fvm flutter"
 
 # Git aliases
 alias gs="git status"
@@ -43,3 +45,8 @@ source ~/.git-prompt.sh
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # rbenvのインストール
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/a5/.dart-cli-completion/zsh-config.zsh ]] && . /Users/a5/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
