@@ -35,3 +35,11 @@ eval "$(rbenv init -)"
 # Git completion and prompt
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
+
+
+# brewのインストール
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/a5/.zprofile
+# eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# rbenvのインストール
