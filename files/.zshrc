@@ -34,10 +34,6 @@ eval "$(anyenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# Git completion and prompt
-source ~/.git-completion.bash
-source ~/.git-prompt.sh
-
 
 # brewのインストール
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -50,3 +46,5 @@ source ~/.git-prompt.sh
 [[ -f /Users/a5/.dart-cli-completion/zsh-config.zsh ]] && . /Users/a5/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
